@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 0%;
+    padding: 60px;
+    color: white;
+    background-color: black;
+    font-size: xx-large;
+}
+
+h2 {
+    text-align: center;
+    font-size: x-large;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+}
+
+div {
+    text-align: center;
+}
+
+input {
+    border-radius: 10000px;
+    font-size: large;
+}

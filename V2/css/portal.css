@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 0%;
+    padding: 60px;
+    color: white;
+    font-size: 250%;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 185%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 150%;
+}
+
+p {
+    text-align: center;
+}
+
+.n1 {
+    font-size: large;
+}
+
+.n2 {
+    font-size: large;
+}
+
+img {
+    margin-left: 5%;
+}

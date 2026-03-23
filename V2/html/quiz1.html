@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/quiz.css">
+    <title>Perguntas</title>
+    <meta name="description" content="Um quiz interativo para testar seus conhecimentos">
+</head>
+<body>
+   <main>
+       <!--Pergunta 01: Multipla Escolha-->
+       <section>
+           <h2> <span style="color: rgb(19, 19, 70)"> <u>Pergunta 01 </u>: </span> <font face="Candara"> Qual linguagem é usada para
+             estruturar uma pagina web </font> </h2>
+             <form>
+                 <input type="radio" value="Python" id="p1a"
+                 name="pergunta1">
+                 <label for=p1a">Python</label>
+                
+                 <input type="radio" value="HTML" id="p1b"
+                 name="pergunta1">
+                 <label for=p1b">HTML</label>
+                 
+                 <input type="radio" value="JavaScript" id="p1c"
+                 name="pergunta1">
+                 <label for=p1c">JavaScript</label>
+                 
+                 <input type="radio" value="C#" id="p1d"
+                 name="pergunta1">
+                 <label for=p1d">C#</label>
+             </form>
+       </section>
+       <!--Pergunta 02: Texto-->
+       <section>
+           <h2> <span style="color: rgb(19, 19, 70)"> <u>Pergunta 02</u>: </span> <font face="Candara">Na URL https://www.google.com o 
+            trecho "google.com" é o ____ </font> </h2>
+            <form>
+                <input type="text" id="p2" placeholder="Digite a sua reposta...">
+            </form>
+       </section>
+       <!--Pergunta 03: -->
+       <section>
+           <h2> <span style="color: rgb(19, 19, 70)"> <u>Pergunta 03</u>: </span> <font face="Candara">Escreva um exemplo de uma senha segura </font> </h2>
+           <form>
+               <input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha...">
+           </form>
+       </section>
+       <!--Pergunta 04: Data-->
+       <section>
+           <h2> <span style="color: rgb(19, 19, 70)"> <u>Pergunta 4</u>: </span> <font face="Candara">Quando o HTML foi lançado? </font> </h2>
+           <form>
+               <input type="date" id="p4" name="pergunta4">
+           </form>
+       </section>   
+       <!--Pergunta 05: Seleçao Multipla-->
+       <section>
+           <h2> <span style="color: rgb(19, 19, 70)"> <u>Pergunta 05</u>: </span> <font face="Candara">Quais dessas tecnologias são consideradas linguagens de programação? </font> </h2>
+           <form>
+               <input type="checkbox" id="p5a"
+               name="pergunta5" value="Javascript">
+               <label for="p5a">Javascript</label>
+
+               <input type="checkbox" id="p5b"
+               name="pergunta5" value="HTML">
+               <label for="p5b">HTML</label>
+
+               <input type="checkbox" id="p5c"
+               name="pergunta5" value="Java">
+               <label for="p5c">Java</label>
+
+               <input type="checkbox" id="p5d"
+               name="pergunta5" value="CSS">
+               <label for="p5d">CSS</label>
+           </form>
+       </section>
+       <!--Pergunta 06: Menu Suspenso-->
+       <section>
+           <h2> <span style="color: rgb(19, 19, 70)"> <u>Pergunta 06</u>: </span> <font face="Candara">Selecione o atributo do input que define o seu tipo: </font>  </h2>
+           <form>
+            <select name="pergunta6" id="p6">
+                <option value="id">id</option>
+                <option value="type">type</option>
+                <option value="placeholder">placeholder</option>
+                <option value="form">form</option>
+            </select>   
+           </form>
+       </section>
+       <!--Pergunta 07: Imagem-->
+       <section>
+           <h2> <span style="color: rgb(19, 19, 70)"> <u>Pergunta 07</u>: </span> <font face="Candara">Qual linguagem de programação é representada pelo logotipo abaixo? </font> </h2>
+           <figure>
+               <img src="/assets/logo python.webp" width="75" heigh="75" alt="Logotipo de uma linguagem de ptogramaçao"><br>
+               <figcaption> Figura 01: Logotipo de uma linguagem de programaçao </figcaption>
+               <input type="text" id="p7" name="pergunta7" placeholder="Digite a sua resposta...">
+            </figure>
+        </section> 
+        <section>
+            <div>
+                <form action="respostas1.html">
+                   <input type="submit" value="Finalizar" />
+               </form>
+            </div> 
+        </section>
+</body>
+</html>
