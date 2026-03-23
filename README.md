@@ -8,7 +8,7 @@ O Learn Quiz começou como um projeto simples em HTML feito para aprender o bás
 A ideia é criar uma plataforma onde usuários possam aprender, praticar e testar seus conhecimentos através de desafios (quiz).
 
 
-### Evolução do projeto
+## Evolução do projeto
 
 • V1
 
@@ -34,7 +34,7 @@ A ideia é criar uma plataforma onde usuários possam aprender, praticar e testa
 - Possível integração com backend no futuro
 
 
-#### Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - HTML
 - CSS
@@ -42,7 +42,7 @@ A ideia é criar uma plataforma onde usuários possam aprender, praticar e testa
 - (futuramente) Backend
 
 
-##### Estrutura do projeto
+## Estrutura do projeto
 
 learn-quiz/
 ├── V1/
@@ -50,7 +50,7 @@ learn-quiz/
 └── README.md
 
 
-###### Objetivo
+## Objetivo
 
 Este projeto faz parte do meu processo de aprendizado em programação, com foco em:
 
@@ -59,11 +59,11 @@ Este projeto faz parte do meu processo de aprendizado em programação, com foco
 - Construção de projetos próprios
 
 
-####### Autor
+## Autor
 
 Italo Silva dos Santos
 
 
-######## Observações
+## Observações
 
 Este projeto está em constante evolução. Novas versões e melhorias serão adicionadas ao longo do tempo.
